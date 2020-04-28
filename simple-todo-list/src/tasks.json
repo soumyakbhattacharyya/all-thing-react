@@ -1,0 +1,25 @@
+{
+    "elements": [
+        {
+            "id": "1",
+            "description": "play with Mohor",
+            "dueBy": "today",
+            "project": "parenting",
+            "done": true
+        },
+        {
+            "id": "2",
+            "description": "cook awesome breakfast",
+            "dueBy": "today",
+            "project": "cooking",
+            "done": true
+        },
+        {
+            "id": "3",
+            "description": "solve statistical analysis of data",
+            "dueBy": "tomorrow",
+            "project": "data-science",
+            "done": false
+        }
+    ]
+}
