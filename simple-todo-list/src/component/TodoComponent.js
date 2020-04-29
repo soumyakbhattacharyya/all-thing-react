@@ -1,14 +1,6 @@
 import React from 'react';
 import '../App.css';
 
-// function onToggle(e,props){  
-//   const idOfSelectedCheckbox = e.target.getAttribute("id")
-//   const {handleChange} = props.handleChange;
-//   console.log(idOfSelectedCheckbox + " checkbox has been clicked")
-//   console.log(props.handleChange)
-//   console.log(handleChange(idOfSelectedCheckbox))
-// }
-
 function TodoComponent(props) {
   console.log('props are following ' + props)
   return (
@@ -25,7 +17,7 @@ function TodoComponent(props) {
               ></input>
             </td>
             <td>
-              <p>{props.description}</p>
+              {props.done ? <p><s>{props.description}</s></p> : <p>{props.description}</p>}
             </td>
           </tr>
         </tbody>
